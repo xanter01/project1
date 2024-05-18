@@ -560,8 +560,6 @@ def search():
 
 def searchDB():
     global uu,window1
-    yy = str(b.get())
-    h = str(o.get())
     uu = str(a52.get())
     con = sqlite3.connect("phoneboog.db")
     c1 = con.cursor()
