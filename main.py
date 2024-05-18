@@ -558,20 +558,8 @@ def search():
     a52 = Entry(window1)
     a52.grid(row=1, column=1)
 
-    p = Label(window1, text='имя')
-    p.grid(row=2, column=0)
-    b = Entry(window1)
-    b.grid(row=2, column=1)
-
-    k = Label(window1, text='телефон1')
-    k.grid(row=3, column=0)
-    o = Entry(window1)
-    o.grid(row=3, column=1)
-    uu=str(a52.get())
-    yy=str(b.get())
-    h=str(o.get())
 def searchDB():
-    global uu,window1,yy,h
+    global uu,window1
     yy = str(b.get())
     h = str(o.get())
     uu = str(a52.get())
